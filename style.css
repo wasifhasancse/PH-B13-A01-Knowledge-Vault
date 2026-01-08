@@ -49,7 +49,7 @@
 
 /* navigation style start  */
 .nav {
-  padding: 16px 120px;
+  padding: 16px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -198,3 +198,56 @@
   color: #627382;
 }
 /* notes section style end */
+
+/* the solution section style start */
+.solution{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.solution-info{
+  padding-right: 120px;
+}
+
+.solution-info .solution-info-title{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.solution .solution-info .solution-info-title h2{
+  font-size: 16px;
+  font-weight: 500;
+  color: #30b868;
+  text-transform: uppercase;
+}
+
+.solution .solution-info .solution-info-title h1{
+  font-size: 48px;
+  color: #001931;
+}
+
+.solution .solution-info .solution-info-title p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.solution .solution-info ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.solution .solution-info li{
+  background: url("./assets/CheckCircle.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 25px;
+  line-height: 20px;
+}
+/* the solution section style end */
