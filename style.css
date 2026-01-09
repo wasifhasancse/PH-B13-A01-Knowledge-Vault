@@ -12,6 +12,12 @@
   margin: auto;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .primary-btn {
   display: inline-block;
   padding: 16px;
@@ -23,6 +29,7 @@
   background: #30b868;
   border-radius: 4px;
   border: 2px solid #30b868;
+  transition: all 0.3s;
 }
 
 .primary-btn:hover {
@@ -41,10 +48,11 @@
   color: #fff;
   border-radius: 4px;
   border: 2px solid #fff;
+  transition: all 0.3s;
 }
 
 .secondary-btn:hover {
-  color: #fff;
+  color: #001931;
   background: #f95555;
   border: 2px solid #fff;
 }
@@ -71,6 +79,7 @@
   font-weight: 500;
   color: #001931;
   position: relative;
+  transition: all 0.3s;
 }
 
 .nav .nav-link ul a::after {
@@ -95,9 +104,6 @@
 
 /* hero section style start */
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url("./assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -123,6 +129,7 @@
   padding: 8px 12px;
   border-radius: 100px;
   border: 2px solid #f7f6f2;
+  transition: all 0.3s;
 }
 
 .hero .hero-info h2:hover {
@@ -147,9 +154,6 @@
 }
 
 .hero .hero-info .hero-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 16px;
   margin-top: 16px;
 }
@@ -187,11 +191,15 @@
   max-width: 332px;
   border-radius: 8px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 16px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+.notes .notes-card-container .notes-card:hover .notes-card-img {
+  background: #30b868;
 }
 
 .notes .notes-card-container .notes-card .notes-card-img {
@@ -230,7 +238,7 @@
   gap: 60px;
 }
 
-.solution .solution-image img{
+.solution .solution-image img {
   border-radius: 12px;
   max-width: 600px;
 }
@@ -289,7 +297,7 @@
   text-align: center;
 }
 
-.early-access .early-access-info{
+.early-access .early-access-info {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -345,10 +353,11 @@
 .footer .footer-top .footer-social .social-link a {
   font-size: 20px;
   color: #f7f6f2;
+  transition: all 0.3s;
 }
 
 .footer .footer-top .footer-social .social-link a:hover {
-  color: #f95555;
+  color: #30b868;
 }
 
 .footer-bottom {
