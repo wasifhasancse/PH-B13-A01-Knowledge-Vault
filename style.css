@@ -31,6 +31,7 @@
 }
 
 .secondary-btn {
+  display: inline-block;
   padding: 16px;
   font-size: 16px;
   font-weight: 600;
@@ -57,10 +58,6 @@
   background: #fff;
 }
 
-/* .nav .nav-logo img{
-  
-} */
-
 .nav .nav-link ul {
   list-style: none;
   display: flex;
@@ -72,10 +69,26 @@
   font-size: 16px;
   font-weight: 500;
   color: #001931;
+  position: relative;
+}
+
+.nav .nav-link ul a::after{
+  content: '';
+  background: #f95555;
+  height: 1px;
+  width: 0;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  transition: width .8s;
 }
 
 .nav .nav-link ul a:hover {
   color: #f95555;
+}
+
+.nav .nav-link ul a:hover::after{
+  width: 100%;
 }
 /* navigation style end */
 
