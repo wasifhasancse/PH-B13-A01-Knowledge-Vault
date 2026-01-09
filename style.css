@@ -297,12 +297,6 @@
   text-align: center;
 }
 
-.early-access .early-access-info {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
 .early-access .early-access-info-title h1 {
   color: #001931;
   font-size: 40px;
@@ -314,7 +308,11 @@
   color: #627382;
   font-size: 16px;
   line-height: 24px;
-  margin: 16px auto 0px;
+}
+
+.ebtn{
+  margin: 16px 0;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
 /* get early access section end */
 
