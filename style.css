@@ -281,3 +281,21 @@
   margin-top: 24px;
 }
 /* get early access section end */
+
+/* footer style start  */
+.footer{
+  background: #001931;
+}
+
+.footer-content{
+display: flex;
+flex-direction: column;
+gap: 80px;
+}
+
+.footer .footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* footer style end */
