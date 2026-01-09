@@ -187,63 +187,63 @@
   height: 32px;
 }
 
-.notes .notes-card-container .notes-card h4{
+.notes .notes-card-container .notes-card h4 {
   font-size: 24px;
   font-weight: 600;
   color: #001931;
 }
 
-.notes .notes-card-container .notes-card p{
+.notes .notes-card-container .notes-card p {
   font-size: 16px;
   color: #627382;
 }
 /* notes section style end */
 
 /* the solution section style start */
-.solution{
+.solution {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
 }
 
-.solution-info{
+.solution-info {
   padding-right: 120px;
 }
 
-.solution-info .solution-info-title{
+.solution-info .solution-info-title {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.solution .solution-info .solution-info-title h2{
+.solution .solution-info .solution-info-title h2 {
   font-size: 16px;
   font-weight: 500;
   color: #30b868;
   text-transform: uppercase;
 }
 
-.solution .solution-info .solution-info-title h1{
+.solution .solution-info .solution-info-title h1 {
   font-size: 48px;
   color: #001931;
 }
 
-.solution .solution-info .solution-info-title p{
+.solution .solution-info .solution-info-title p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
   margin-bottom: 40px;
 }
 
-.solution .solution-info ul{
+.solution .solution-info ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.solution .solution-info li{
+.solution .solution-info li {
   background: url("./assets/CheckCircle.png");
   background-repeat: no-repeat;
   background-position: left center;
@@ -253,28 +253,28 @@
 /* the solution section style end */
 
 /* get early access section start */
-.early-access{
-  background: #F7F6F2;
+.early-access {
+  background: #f7f6f2;
   margin: 120px auto;
   padding: 80px 0;
   border-radius: 12px;
   text-align: center;
 }
 
-.early-access .early-access-info-title h1{
+.early-access .early-access-info-title h1 {
   color: #001931;
   font-size: 40px;
   margin-bottom: 16px;
 }
 
-.early-access .early-access-info-title p{
+.early-access .early-access-info-title p {
   color: #627382;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 48px;
 }
 
-.early-access .early-access-info p{
+.early-access .early-access-info p {
   color: #627382;
   font-size: 16px;
   line-height: 24px;
@@ -283,19 +283,40 @@
 /* get early access section end */
 
 /* footer style start  */
-.footer{
+.footer {
   background: #001931;
+  padding-top: 120px;
 }
 
-.footer-content{
-display: flex;
-flex-direction: column;
-gap: 80px;
-}
-
-.footer .footer-top{
+.footer .footer-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer .footer-top .footer-social p{
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 110px;
+  line-height: 28px;
+  color: #f7f6f2;
+}
+
+.footer .footer-top .footer-social .social-link{
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+  margin-top: 16px;
+  color: #f7f6f2;
+}
+
+.footer-bottom{
+  padding: 30px 0;
+  color: #f7f6f2;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 80px;
+  border-top: 1px solid #30b868;
 }
 /* footer style end */
