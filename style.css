@@ -12,6 +12,7 @@
 }
 
 .primary-btn {
+  display: inline-block;
   padding: 16px;
   font-size: 16px;
   font-weight: 600;
@@ -146,6 +147,7 @@
   font-weight: 700;
   color: #001931;
   margin-bottom: 16px;
+  text-transform: capitalize;
 }
 
 .notes .notes-title p {
@@ -191,11 +193,13 @@
   font-size: 24px;
   font-weight: 600;
   color: #001931;
+  text-transform: capitalize;
 }
 
 .notes .notes-card-container .notes-card p {
   font-size: 16px;
   color: #627382;
+  line-height: 20px;
 }
 /* notes section style end */
 
@@ -288,6 +292,12 @@
   padding-top: 120px;
 }
 
+.footer-content hr{
+  background: #627382;
+  opacity: .2;
+  margin-top: 80px;
+}
+
 .footer .footer-top {
   display: flex;
   align-items: center;
@@ -305,9 +315,16 @@
 .footer .footer-top .footer-social .social-link{
   display: flex;
   gap: 16px;
-  font-size: 20px;
   margin-top: 16px;
-  color: #f7f6f2;
+}
+
+.footer .footer-top .footer-social .social-link a{
+  font-size: 20px;
+  color: #f7f6f2; 
+}
+
+.footer .footer-top .footer-social .social-link a:hover{
+  color: #f95555;
 }
 
 .footer-bottom{
@@ -316,7 +333,5 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  margin-top: 80px;
-  border-top: 1px solid #30b868;
 }
 /* footer style end */
